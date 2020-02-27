@@ -6,11 +6,11 @@ export function getTwitchOpts(channels) {
     return {
         identity: {
             username: "GruffuddTheShoBot",
-            password: "oauth:***REMOVED***",
+            password: "oauth:PLACEHOLDER",
         },
         channels: channels,
         options: {
-            clientId: "***REMOVED***",
+            clientId: "PLACEHOLDER",
         },
         connection: {
             reconnect: true,
